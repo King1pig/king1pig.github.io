@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Honeck - Videos</title>
+    <style>
+        body {
+            font-family: 'OpenDyslexic', Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #4b0082;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .section {
+            margin: 2rem 0;
+        }
+        .section h2 {
+            color: #4b0082;
+        }
+        .section p {
+            font-size: 1.1rem;
+        }
+        .videos iframe {
+            display: block;
+            margin: 1rem auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4b0082;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/opendyslexic/0.1.0/open-dyslexic.min.css">
+</head>
+<body>
+    <header>
+        <h1>Marcus Honeck</h1>
+        <p>Videos</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="videos.html">Videos</a>
+    </nav>
+    <div class="container">
+        <section id="videos" class="section videos">
+            <h2>Videos</h2>
+            <p>Check out some of my work:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoid1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoid2" frameborder="0" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoid3" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </div>
+    <footer>
+        <h2>Business Contact</h2>
+        <p>If you'd like to get in touch with me for business inquiries, please reach out via email at <a href="mailto:marcus@example.com">marcus@example.com</a>.</p>
+    </footer>
+</body>
+</html>

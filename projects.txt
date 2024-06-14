@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Honeck - Projects</title>
+    <style>
+        body {
+            font-family: 'OpenDyslexic', Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4b0082;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            color: #4b0082;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .section {
+            margin: 2rem 0;
+        }
+        .section h2 {
+            color: #4b0082;
+        }
+        .section p {
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #4b0082;
+            color: white;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/opendyslexic/0.1.0/open-dyslexic.min.css">
+</head>
+<body>
+    <header>
+        <h1>Marcus Honeck</h1>
+        <p>Projects</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="projects.html">Projects</a>
+        <a href="videos.html">Videos</a>
+    </nav>
+    <div class="container">
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I've worked on recently:</p>
+            <ul>
+                <li>Project 1 - Description of project 1.</li>
+                <li>Project 2 - Description of project 2.</li>
+                <li>Project 3 - Description of project 3.</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <h2>Business Contact</h2>
+        <p>If you'd like to get in touch with me for business inquiries, please reach out via email at <a href="mailto:marcus@example.com">marcus@example.com</a>.</p>
+    </footer>
+</body>
+</html>
